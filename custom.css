@@ -1,6 +1,7 @@
 html {
   color: #ac8a67;
   height: 100%;
+  font-family: 'Tinos', serif;
 }
 
 body {
@@ -9,10 +10,12 @@ body {
   flex-direction: column;
   background-color: #6c6b66;
   height: 100%;
+  font-family: 'Tinos', serif;
 }
 
 main {
   flex: 1 0 auto;
+  font-family: 'Tinos', serif;
 }
 
 .top-space {
