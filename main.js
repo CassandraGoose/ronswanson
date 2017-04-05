@@ -5,7 +5,7 @@ $(document).ready(function() {
   function callAPI() {
     $.get('http://ron-swanson-quotes.herokuapp.com/v2/quotes', result => {
       $('#quotespot').empty()
-      var theQuote = result[0]
+      var theQuote = result[0].toUpperCase()
       $.get('http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=ron+swanson', results => {
         $('#divChunk').empty()
         var theGif = results.data.image_url

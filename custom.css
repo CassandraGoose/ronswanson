@@ -1,5 +1,6 @@
 html {
   color: #ac8a67;
+  height: 100%;
 }
 
 body {
@@ -7,6 +8,7 @@ body {
   min-height: 100vh;
   flex-direction: column;
   background-color: #6c6b66;
+  height: 100%;
 }
 
 main {
@@ -17,6 +19,10 @@ main {
   margin-top: 4em;
 }
 
+.top-space-extra {
+  margin-top: 8em;
+}
+
 .mid-space {
   margin-top: 3em;
 }
@@ -24,6 +30,11 @@ main {
 .max-img {
   max-height: 50em;
   max-width: 65em;
+}
+
+.thebutton {
+  animation: buttonthing 1s 1s infinite alternate;
+
 }
 
 .btncolor {
@@ -39,13 +50,37 @@ main {
 }
 
 .gradient {
-  background-image:
-    linear-gradient(
-      to top right,
-      #0e0405, #706f6a
-    );
+
 }
 
 .bottomsies {
   margin-bottom: 2em;
+}
+
+.largify {
+  height: 45%;
+  width: 75%;
+}
+
+.largeme {
+  height: 100%;
+}
+
+.btn:hover, .btn-large:hover {
+    background-color: #dadada;
+}
+
+@keyframes buttonthing{
+    0%{
+      box-shadow: 0px 0px 50px 50px #373737;
+    }
+    25%{
+      box-shadow: none;
+    }
+    50%{
+      box-shadow: 0px 0px 50px 50px #373737;
+    }
+    75%{
+      box-shadow: none;
+    }
 }
