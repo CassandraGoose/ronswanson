@@ -18,6 +18,12 @@ main {
   font-family: 'Tinos', serif;
 }
 
+
+.maximum {
+  max-height: 70%;
+  max-width: 70%;
+}
+
 .top-space {
   margin-top: 4em;
 }

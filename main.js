@@ -10,7 +10,7 @@ $(document).ready(function() {
         $('#divChunk').empty()
         var theGif = results.data.image_url
         $('#divChunk').prepend(`<div class="row">
-              <div class="col s12 bottomsies">
+              <div class="col s8 offset-s4 bottomsies">
                 <div class="card cardcolor">
                   <div class="card-image">
                     <img class="max-img" src="${theGif}">
