@@ -1,0 +1,89 @@
+html {
+  color: #ac8a67;
+  height: 100%;
+  font-family: 'Tinos', serif;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #6c6b66;
+  height: 100%;
+  font-family: 'Tinos', serif;
+}
+
+main {
+  flex: 1 0 auto;
+  font-family: 'Tinos', serif;
+}
+
+.top-space {
+  margin-top: 4em;
+}
+
+.top-space-extra {
+  margin-top: 8em;
+}
+
+.mid-space {
+  margin-top: 3em;
+}
+
+.max-img {
+  max-height: 50em;
+  max-width: 65em;
+}
+
+.thebutton {
+  animation: buttonthing 1s 1s infinite alternate;
+
+}
+
+.btncolor {
+  background-color: #401c22;
+}
+
+.textcolor {
+  color: #ac8a67;
+}
+
+.cardcolor {
+  background-color: #401c22;
+}
+
+.gradient {
+
+}
+
+.bottomsies {
+  margin-bottom: 2em;
+}
+
+.largify {
+  height: 45%;
+  width: 75%;
+}
+
+.largeme {
+  height: 100%;
+}
+
+.btn:hover, .btn-large:hover {
+    background-color: #dadada;
+}
+
+@keyframes buttonthing{
+    0%{
+      box-shadow: 0px 0px 50px 50px #373737;
+    }
+    25%{
+      box-shadow: none;
+    }
+    50%{
+      box-shadow: 0px 0px 50px 50px #373737;
+    }
+    75%{
+      box-shadow: none;
+    }
+}
