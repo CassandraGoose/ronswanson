@@ -21,7 +21,7 @@ $(document).ready(function() {
 
                   </div>
                 </div>
-                <a class="waves-effect waves-light btn btncolor textcolor" id="thebutton" href="theronswanson.herokuapp.com/second.html">I need more ron</a>
+                <a class="waves-effect waves-light btn btncolor textcolor" id="thebutton" href="/second.html">I need more ron</a>
 
               </div>
             </div>`)
